@@ -1,0 +1,9 @@
+<div [ngClass]="setClasses()">
+  <input 
+    [(checked)]="item.completed" 
+    (change)="onToggle(item)" 
+    type="checkbox" 
+  />
+  {{ item.title }}
+  <button (click)="onDelete(item)" class="del">x</button>
+</div>

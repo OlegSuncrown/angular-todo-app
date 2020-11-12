@@ -1,0 +1,9 @@
+.about {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.about h1 {
+  text-align: center;
+  margin-top: 30px;
+}
